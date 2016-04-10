@@ -18,10 +18,7 @@ h1 {
 }
 
 article {
-    padding: 2%;
-}
-
-p {
+/*    padding: 2%;*/
 	border: 1px solid black;
 	background-color: #339966;
 	font-family: Helvetica, serif;
@@ -37,29 +34,12 @@ p {
 /*
 	margin-right: auto;
 	margin-left: auto;
-*/
-    position: relative;
+*/    
 }
-/*
 
-user agent stylesheet
-p {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-user agent stylesheet
-p {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-*/
 
-.title {
+
+p.title {
     border: 1px solid black;
     font-size: 125%;
     top: 0;
