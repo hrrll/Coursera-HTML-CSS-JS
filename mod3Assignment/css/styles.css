@@ -6,6 +6,11 @@
     padding-left: 5px;
     padding-right: 5px;
 }
+#bs-example-navbar-collapse-1 ul li {
+    text-align: center;
+    background-color: #C9EDAF;
+    font-size: 1.4em
+}
 a {
     text-decoration: none;
 }
