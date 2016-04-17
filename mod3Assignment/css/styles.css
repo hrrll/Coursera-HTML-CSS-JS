@@ -1,6 +1,33 @@
+body {
+    background-color: #2F4F4F;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+h1:hover {
+    text-transform: uppercase;
+}
+a, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+p.text-center.head3 a, 
+div.text-center a {
+    color: #2F4F4F;
+}
+p.text-center.head3 a:hover, 
+div.text-center a:hover {
+    color: #fff;
+}
 .head3 {
     font-size: 1.7em;
     text-align: center; 
+    color: #2F4F4F;
+}
+.head3:hover {
+    color: #fff;
 }
 .col-xs-12, col-lg-4, col-md-6 {
     padding-left: 5px;
@@ -11,13 +38,17 @@
     background-color: #C9EDAF;
     font-size: 1.4em
 }
-a {
-    text-decoration: none;
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+a.navbar-brand {
+    font-size: 2.4em;
+    color: #fff;
 }
 .container-fluid {
     padding-left: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 section {
     margin-top: 1em; 
@@ -32,8 +63,8 @@ p {
     padding-left: 1em;
     padding-right: 1em;
 }
+
 hr {
-    border-top: 2px solid #333;
+    border-top: 2px solid #2F4F4F;
     width: 50%;
-    opacity: 0.8;
 }
