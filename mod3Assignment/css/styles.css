@@ -21,10 +21,14 @@ section {
 }
 article {
     padding: 1em;
-    background-color: #E6F1F2;
+    background-color: #C9EDAF;
 }
 p {
-    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
-
-
+hr {
+    border-top: 2px solid #333;
+    width: 50%;
+    opacity: 0.8;
+}
